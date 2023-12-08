@@ -7,7 +7,7 @@ from models import checker, register_class, register_user, checker_creator, chec
 from buttons import choice_class, get_clas_people_btn
 from service import generate_token, get_all_class_service
 
-bot = telebot.TeleBot('6461983011:AAFaAaugYxw38sTCzKOunQDGO_u8X3ZBMRk')
+bot = telebot.TeleBot('TOKEN')
 
 
 @bot.message_handler(commands=['start'])
